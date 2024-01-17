@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "husky": "^8.0.3",
+    "simple-git": "^3.22.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
+  "scripts": {
+    "cz": "npx git-cz",
+    "precommit": "npm test"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@digitalroute/cz-conventional-changelog-for-jira"
+    }
+  },
+  "dependencies": {
+    "@digitalroute/cz-conventional-changelog-for-jira": "^8.0.1"
+  }
+}
