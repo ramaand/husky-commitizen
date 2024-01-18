@@ -1,0 +1,5 @@
+Test commitizen
+
+Testing combine simple-git dan commitizen:
+Attempt
+1
